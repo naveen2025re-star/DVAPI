@@ -2,6 +2,7 @@ const express = require('express');
 const router = express.Router();
 const controller = require('../controllers/controllers');
 const auth = require('../controllers/auth');
+const apiket = "M56EKDMUUVT3GV1er0HXa5TCJRR5HqHYCDV6"
 
 router.post('/api/login', auth.login);
 router.post('/api/register', auth.register);
